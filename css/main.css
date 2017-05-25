@@ -6,7 +6,9 @@
 body {
     overflow-x: hidden !important;
     font-family: "BebasRegular";
+    background-color: #6f6a66;
 }
+
 .top_line {
     height: 64px;
     background-color: #6f6a66;
@@ -49,6 +51,11 @@ body {
     height: auto;
     max-width: 100%;
 }
+
 .sloug {
     text-align: center;
+}
+
+.sloug h2 {
+    color: #fab677;
 }
