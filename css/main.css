@@ -4,58 +4,66 @@
 }
 
 body {
-    overflow-x: hidden !important;
-    font-family: "BebasRegular";
-    background-color: #6f6a66;
+    /*overflow-x: hidden !important;*/
+    background-color: #e3dddd;
+}
+
+header {
+    background-image: url(../img/top_bg.jpg);
+    min-height: 640px;
+    background-repeat: repeat-x;
+    background-position: top center;
+    position: relative;
+    min-width: 100%;
 }
 
 .top_line {
-    height: 64px;
-    background-color: #6f6a66;
-    max-width: 100%;
+    min-height: 45px;
+    -webkit-box-shadow: rgba(255, 255, 255, .5) 0 0 0 1px;
+    box-shadow: rgba(255, 255, 255, .4) 0 0 0 1px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .60);
 }
 
-.top_line ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-}
-
-.top_line li {
-    display: inline-block;
-}
-
-.top_line a {
-    color: #fab677;
-    font-size: 24px;
-    padding: 0 20px;
-    display: block;
-    line-height: 64px;
-}
-
-.top_line .addrs {
-    color: #fab677;
-    font-size: 24px;
-    float: right;
-    line-height: 64px;
-}
-
-.top_line .addrs strong {
-    color: #fff;
-    padding: 0 10px
-}
-
-.img-fluid {
-    display: inline-block;
-    height: auto;
-    max-width: 100%;
-}
-
-.sloug {
+.menu {
+    font-family: "BebasRegular";
     text-align: center;
+    padding-top: 15px;
+    min-height: 50px;
 }
 
-.sloug h2 {
-    color: #fab677;
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 30px;
 }
+
+.menu a {
+    color: #fff;
+}
+
+.gallery_txt {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "BebasRegular";
+    padding: 20px;
+}
+
+.thumb img { 
+      filter: none; /* IE6-9 */ 
+      -webkit-filter: grayscale(0); 
+      border-radius:5px; 
+      background-color: #fff; 
+      border: 1px solid #ddd; 
+      padding:5px;
+} 
+.thumb img:hover { 
+      filter: gray; /* IE6-9 */ 
+      -webkit-filter: grayscale(1); 
+} 
+.thumb { 
+      padding:5px; 
+} 
