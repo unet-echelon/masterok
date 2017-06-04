@@ -33,19 +33,20 @@
                             <ul>
                                 <li class="active"><a href="#">Главная</a></li>
                                 <li><a href="#gallery">Галерея работ</a></li>
-                                <li><a href="#">Услуги и цена</a></li>
+                                <li><a href="#service">Услуги</a></li>
                                 <li><a href="#">Контакты</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> <!-- top_line -->
     </header>
     <section>
         <div class="container">
             <div class="row">
-                <h2 id="gallery" class="gallery_txt">галерея работ</h2>
+              <h2 id="gallery" class="gallery_txt">галерея работ</h2>
+                <hr>
                 <div class="col-md-3 col-sm-4 col-xs-6 thumb">
                     <a rel=example_group id="fancybox-img" href="img/gallery/600xq60_x600q60_remont_1.jpg">
                         <img src="img/gallery/600xq60_x600q60_remont_1.jpg" alt="remont_1" class="img-responsive">
@@ -57,13 +58,13 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 thumb">
-                    <a rel=example_group id="fancybox-img" href="img/gallery/600xq60_x600q60_remont_3.jpg">
-                        <img src="img/gallery/600xq60_x600q60_remont_3.jpg" alt="remont_3" class="img-responsive">
+                    <a rel=example_group id="fancybox-img" href="img/gallery/600xq60_x600q60_remont_2.jpg">
+                        <img src="img/gallery/600xq60_x600q60_remont_2.jpg" alt="remont_3" class="img-responsive">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 thumb">
-                    <a rel=example_group id="fancybox-img" href="img/gallery/600xq60_x600q60_remont_4.jpg">
-                        <img class="img-responsive" src="img/gallery/600xq60_x600q60_remont_4.jpg" alt="remont_1">
+                    <a rel=example_group id="fancybox-img" href="img/gallery/600xq60_x600q60_remont_2.jpg">
+                        <img class="img-responsive" src="img/gallery/600xq60_x600q60_remont_2.jpg" alt="remont_1">
                     </a>
                 </div>
             </div>
@@ -79,19 +80,57 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 thumb">
-                    <a rel=example_group id="fancybox-img" href="img/gallery/600xq60_x600q60_remont_3.jpg">
-                        <img src="img/gallery/600xq60_x600q60_remont_3.jpg" alt="remont_3" class="img-responsive">
+                    <a rel=example_group id="fancybox-img" href="img/gallery/600xq60_x600q60_remont_2.jpg">
+                        <img src="img/gallery/600xq60_x600q60_remont_2.jpg" alt="remont_3" class="img-responsive">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6 thumb">
-                    <a rel=example_group id="fancybox-img" href="img/gallery/600xq60_x600q60_remont_4.jpg">
-                        <img class="img-responsive" src="img/gallery/600xq60_x600q60_remont_4.jpg" alt="remont_1">
+                    <a rel=example_group id="fancybox-img" href="img/gallery/600xq60_x600q60_remont_2.jpg">
+                        <img class="img-responsive" src="img/gallery/600xq60_x600q60_remont_2.jpg" alt="remont_1">
                     </a>
                 </div>
+                <hr class="line_bott">
             </div>
-        </div>
+        </div> <!-- gallery container -->
     </section>
-
+    <section>
+        <div class="container">
+            <div class="row">
+            <h2 id="service" class="service_txt">Все виды ремонтно-строительных услуг</h2>
+            <hr>
+                <div class="col-md-6 col-sm-4 col-xs-6">
+                    <ol class="list_serv">
+                        <li>Пол
+                            <ul>
+                                <li>Гидроизоляция</li>
+                                <li>Стяжка</li>
+                                <li>Укладка плитки</li>
+                                <li>Ламинат</li>
+                            </ul>
+                        </li>
+                        <li>Стена
+                            <ul>
+                                <li>Демонтаж</li>
+                                <li>Перепланеровка помещения</li>
+                                <li>Перегородки с гипсокартона</li>
+                                <li>укладка кирпича</li>
+                                <li>Штукатурка</li>
+                                <li>Шпаклевка и покраска</li>
+                            </ul>
+                        </li>
+                        <li>Потолок
+                            <ul>
+                                <li>Обивка гипсокартоном (навеска)</li>
+                            </ul>
+                        </li>
+                        <li>Утепление</li>
+                        <li>Сантехика</li>
+                        <li>Электрика</li>
+                    </ol>
+                </div>
+            </div>
+        </div> <!-- service container -->
+    </section>
     <!-- JQuery scroll anchor links -->
     <script>
         $(document).ready(function() {
@@ -150,7 +189,7 @@
     <div id="fancybox-loading">
     <div></div>
     </div>
-    <div class="fancybox-wrap">
+    <!--<div class="fancybox-wrap">
         <div id="fancybox-outer">
             <div class="fancybox-bg" id="fancybox-bg-n"></div>
             <div class="fancybox-bg" id="fancybox-bg-ne"></div>
@@ -164,7 +203,7 @@
             <a id="fancybox-close"></a>
             <div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a>
         </div>
-    </div>
+    </div> -->
     <!-- Mandatory for Responsive Bootstrap Toolkit to operate -->
     <div class="device-xs visible-xs"></div>
     <div class="device-sm visible-sm"></div>

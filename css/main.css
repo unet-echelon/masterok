@@ -4,7 +4,7 @@
 }
 
 body {
-    /*overflow-x: hidden !important;*/
+    overflow-x: hidden !important;*/
     background-color: #e3dddd;
 }
 
@@ -25,6 +25,8 @@ header {
     top: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, .60);
+    position: fixed;
+    z-index: 999999999;
 }
 
 .menu {
@@ -45,11 +47,26 @@ header {
     color: #fff;
 }
 
+hr {
+    background-color: #544;
+    height: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.line_bott{
+    background-color: #544;
+    height: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-top: 20px;
+}
 .gallery_txt {
     text-align: center;
     text-transform: uppercase;
     font-family: "BebasRegular";
     padding: 20px;
+    margin-bottom: -20px;
 }
 
 .thumb img { 
@@ -67,3 +84,10 @@ header {
 .thumb { 
       padding:5px; 
 } 
+.service_txt {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "BebasRegular";
+      padding: 20px;
+      margin-bottom: -10px;
+}
