@@ -40,10 +40,10 @@
 }
 @font-face {
 	font-family: "BebasRegular";
-	src: url("../fonts/BebasRegular/BebasRegular.eot");
-	src: url("../fonts/BebasRegular/BebasRegular.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/BebasRegular/BebasRegular.woff") format("woff"),
-	url("../fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+	src: url("../font/BebasRegular/BebasRegular.eot");
+	src: url("../font/BebasRegular/BebasRegular.eot?#iefix")format("embedded-opentype"),
+	url("../font/BebasRegular/BebasRegular.woff") format("woff"),
+	url("../font/BebasRegular/BebasRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }

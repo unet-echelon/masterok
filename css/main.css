@@ -1,11 +1,65 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {}
+
+body input:required:valid,
+body textarea:required:valid {}
+
+p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+body {
+    min-width: 320px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    position: relative;
+}
+
+
+/* ------------------------------*/
+
 * {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
 
 body {
-    overflow-x: hidden !important;*/
-    background-color: #e3dddd;
+    overflow-x: hidden !important;
+    */ background-color: #e3dddd;
 }
 
 header {
@@ -46,7 +100,6 @@ header {
 .menu a {
     color: #fff;
 }
-
 hr {
     background-color: #544;
     height: 10px;
@@ -54,13 +107,14 @@ hr {
     -webkit-border-radius: 4px;
 }
 
-.line_bott{
+.line_bott {
     background-color: #544;
     height: 10px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     margin-top: 20px;
 }
+
 .gallery_txt {
     text-align: center;
     text-transform: uppercase;
@@ -69,25 +123,83 @@ hr {
     margin-bottom: -20px;
 }
 
-.thumb img { 
-      filter: none; /* IE6-9 */ 
-      -webkit-filter: grayscale(0); 
-      border-radius:5px; 
-      background-color: #fff; 
-      border: 1px solid #ddd; 
-      padding:5px;
-} 
-.thumb img:hover { 
-      filter: gray; /* IE6-9 */ 
-      -webkit-filter: grayscale(1); 
-} 
-.thumb { 
-      padding:5px; 
-} 
+.thumb img {
+    filter: none;
+    /* IE6-9 */
+    -webkit-filter: grayscale(0);
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumb img:hover {
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
+}
+
 .service_txt {
-      text-align: center;
-      text-transform: uppercase;
-      font-family: "BebasRegular";
-      padding: 20px;
-      margin-bottom: -10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "BebasRegular";
+    padding: 20px;
+    margin-bottom: -10px;
+}
+
+footer {
+    min-height: 100px;
+    -webkit-box-shadow: rgba(255, 255, 255, .5) 0 0 0 1px;
+    box-shadow: rgba(255, 255, 255, .4) 0 0 0 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .60);
+    font-family: "BebasRegular";
+    font-size: 15px;
+}
+
+.fr_content {
+    padding-top: 20px;
+}
+
+.fr_content a {
+    padding-top: 20px;
+    color: #fff;
+}
+
+.footer_nav a:hover {
+    color: #000000;
+}
+
+.footer_nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.contacts {
+    font-size: 20px;
+    color: #fff;
+    background-image: url(../img/voice-mail.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 72px;
+    margin: 0px 0px 0px 0px;
+}
+.web_dev {
+  font-size: 12px;
+}
+.contacts strong {
+    color: #000000;
+}
+
+.devl {
+    float: right;
+}
+
+.devl a {
+    color: #00fdea;
 }
